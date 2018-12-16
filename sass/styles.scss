@@ -135,7 +135,9 @@ body > .container {
 }
 .navbar-toggler {
   padding-top: .75rem !important;
-  padding-bottom: .75rem !important; }
+  padding-bottom: .75rem !important; 
+  border: 0px solid #fff !important;
+}
 /* Icon 1 */
 
 .animated-icon1, .animated-icon3, .animated-icon4 {
