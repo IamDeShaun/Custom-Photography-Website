@@ -133,7 +133,9 @@ body > .container {
 	-webkit-transition: all 0.2s;
 	transition: all 0.2s;
 }
-
+.navbar-toggler {
+  padding-top: .75rem !important;
+  padding-bottom: .75rem !important; }
 /* Icon 1 */
 
 .animated-icon1, .animated-icon3, .animated-icon4 {
@@ -231,6 +233,7 @@ body > .container {
 .site-hero {
   background: url('../img/stock-img-3.jpeg') no-repeat center center;
   background-size: cover;
+  background-attachment: fixed;
   height: 100%;
   overflow: hidden;
 
