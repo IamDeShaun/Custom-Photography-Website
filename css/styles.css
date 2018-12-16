@@ -84,13 +84,13 @@ body > .container {
 .navbar-toggler {
   border: none !important;
   outline: none !important;
-  background: #000 !important; }
+  color: #000 !important; }
 
 button.navbar-toggler:focus {
   outline: none !important; }
 
 .navbar-toggle:hover {
-  background: #000 !important; }
+  color: #000 !important; }
 
 .navbar-toggle .icon-bar {
   width: 22px;
@@ -135,7 +135,7 @@ button.navbar-toggler:focus {
   transition: .25s ease-in-out; }
 
 .animated-icon1 span {
-  background: #e65100; }
+  background: #fff; }
 
 .animated-icon3 span {
   background: #e3f2fd; }
