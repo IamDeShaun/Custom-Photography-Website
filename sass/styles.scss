@@ -125,6 +125,9 @@ body > .container {
 	background: #000 !important;
 }
 
+button.navbar-toggler:focus { outline: none !important; }
+
+
 .navbar-toggle:hover {
 	background: #000 !important;
 }
@@ -307,4 +310,5 @@ body > .container {
   border: none !important;
   outline: none !important ;
 }
+button.navbar-toggler:focus { outline: none !important; }
 }

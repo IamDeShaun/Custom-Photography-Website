@@ -86,6 +86,9 @@ body > .container {
   outline: none !important;
   background: #000 !important; }
 
+button.navbar-toggler:focus {
+  outline: none !important; }
+
 .navbar-toggle:hover {
   background: #000 !important; }
 
@@ -236,6 +239,9 @@ footer a:hover {
 
   .navbar-toggler {
     border: none !important;
+    outline: none !important; }
+
+  button.navbar-toggler:focus {
     outline: none !important; } }
 
 /*# sourceMappingURL=styles.css.map */
