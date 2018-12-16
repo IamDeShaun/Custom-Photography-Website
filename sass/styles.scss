@@ -119,8 +119,9 @@ body > .container {
   transition-duration: .3s;
 }
 
-.navbar-toggle {
-	border: none;
+.navbar-toggler {
+  border: none !important;
+  outline: none !important ;
 	background: #000 !important;
 }
 
@@ -136,7 +137,6 @@ body > .container {
 .navbar-toggler {
   padding-top: .75rem !important;
   padding-bottom: .75rem !important; 
-  border: 1px solid #fff !important;
 }
 /* Icon 1 */
 
@@ -303,5 +303,8 @@ body > .container {
 .navi ul li a {
   color: #fff !important;
 }
-
+.navbar-toggler {
+  border: none !important;
+  outline: none !important ;
+}
 }
