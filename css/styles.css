@@ -83,8 +83,7 @@ body > .container {
 
 .navbar-toggler {
   border: none !important;
-  outline: none !important;
-  color: #000 !important; }
+  outline: none !important; }
 
 button.navbar-toggler:focus {
   outline: none !important; }
@@ -99,7 +98,8 @@ button.navbar-toggler:focus {
 
 .navbar-toggler {
   padding-top: .75rem !important;
-  padding-bottom: .75rem !important; }
+  padding-bottom: .75rem !important;
+  background: #fff !important; }
 
 /* Icon 1 */
 .animated-icon1, .animated-icon3, .animated-icon4 {
@@ -239,7 +239,8 @@ footer a:hover {
 
   .navbar-toggler {
     border: none !important;
-    outline: none !important; }
+    outline: none !important;
+    background: #fff !important; }
 
   button.navbar-toggler:focus {
     outline: none !important; } }

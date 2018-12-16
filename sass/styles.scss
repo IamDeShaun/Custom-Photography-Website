@@ -122,7 +122,7 @@ body > .container {
 .navbar-toggler {
   border: none !important;
   outline: none !important ;
-	color: #000 !important;
+
 }
 
 button.navbar-toggler:focus { outline: none !important; }
@@ -139,7 +139,8 @@ button.navbar-toggler:focus { outline: none !important; }
 }
 .navbar-toggler {
   padding-top: .75rem !important;
-  padding-bottom: .75rem !important; 
+  padding-bottom: .75rem !important;
+  background: #fff !important; 
 }
 /* Icon 1 */
 
@@ -308,7 +309,8 @@ button.navbar-toggler:focus { outline: none !important; }
 }
 .navbar-toggler {
   border: none !important;
-  outline: none !important ;
+  outline: none !important;
+  background: #fff !important;
 }
 button.navbar-toggler:focus { outline: none !important; }
 }
