@@ -231,17 +231,31 @@ button.navbar-toggler:focus { outline: none !important; }
 # Site Hero Section
 --------------------------------------------------------------*/
 #hero {
-  padding: 0;
-  margin: 0;
   width: 100%;
   height: 400px;
+
+  h4{
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+  }
+  h3{
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+  }
 }
+
 .site-hero {
   background: url('../img/stock-img-3.jpeg') no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   height: 100%;
   overflow: hidden;
+  padding-top: 150px;
+  text-align: center;
 
 }
 
@@ -313,4 +327,26 @@ button.navbar-toggler:focus { outline: none !important; }
   background: #fff !important;
 }
 button.navbar-toggler:focus { outline: none !important; }
+}
+
+@include respond-below(sm) { 
+  #hero {
+    width: 100%;
+    height: 400px;
+    padding-left: 10px;
+    padding-right: 10px;
+  
+    h4{
+      font-size: 1.2rem;
+      color: #fff;
+      font-weight: 600;
+      text-align: center;
+    }
+    h3{
+      font-size: 2rem;
+      color: #fff;
+      font-weight: 600;
+      text-align: center;
+    }
+  }
 }
