@@ -248,7 +248,7 @@ button.navbar-toggler:focus { outline: none !important; }
 }
 
 .site-hero {
-  background: url('../img/stock-img-3.jpeg') no-repeat center center;
+  background: url('../img/stock-img-3.jpeg')no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   overflow: hidden;
@@ -300,7 +300,12 @@ margin: auto;
 /*--------------------------------------------------------------
 # Section 3
 --------------------------------------------------------------*/
-
+#homegallery {
+  width: 100%;
+  height: 500px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
 
 /*--------------------------------------------------------------
 # Section 4
@@ -378,7 +383,7 @@ button.navbar-toggler:focus { outline: none !important; }
 @include respond-below(sm) { 
   #hero {
     width: 100%;
-    height: 400px;
+    height: 300px !important;
     padding-left: 10px;
     padding-right: 10px;
   
@@ -396,8 +401,23 @@ button.navbar-toggler:focus { outline: none !important; }
     }
   }
 
+  .site-hero {padding-top: 100px !important;}
+
   #photometa .metacontainer {
     width: 100% !important ;
+  }
+
+  #aboutphotog {
+    min-height: 300px !important;
+  }
+
+  #photogid {
+    min-height: 300px !important;
+  }
+
+  #photometa {
+    min-height: 300px !important;
+    padding: 2.5rem !important;
   }
 
 }

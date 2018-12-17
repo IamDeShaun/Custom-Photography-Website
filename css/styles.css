@@ -238,6 +238,12 @@ button.navbar-toggler:focus {
 /*--------------------------------------------------------------
 # Section 3
 --------------------------------------------------------------*/
+#homegallery {
+  width: 100%;
+  height: 500px;
+  padding: 20px;
+  margin-bottom: 20px; }
+
 /*--------------------------------------------------------------
 # Section 4
 --------------------------------------------------------------*/
@@ -301,7 +307,7 @@ footer a:hover {
 @media (max-width: 767px) {
   #hero {
     width: 100%;
-    height: 400px;
+    height: 300px !important;
     padding-left: 10px;
     padding-right: 10px; }
     #hero h4 {
@@ -315,7 +321,20 @@ footer a:hover {
       font-weight: 600;
       text-align: center; }
 
+  .site-hero {
+    padding-top: 100px !important; }
+
   #photometa .metacontainer {
-    width: 100% !important; } }
+    width: 100% !important; }
+
+  #aboutphotog {
+    min-height: 300px !important; }
+
+  #photogid {
+    min-height: 300px !important; }
+
+  #photometa {
+    min-height: 300px !important;
+    padding: 2.5rem !important; } }
 
 /*# sourceMappingURL=styles.css.map */
