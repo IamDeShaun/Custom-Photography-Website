@@ -12,7 +12,7 @@ Description: This is a responsive website built using the bootstrap 4 framework.
 # Mixings
 # Base Styles
   ## Header
-	## Site Hero Section
+	## Home Hero Section
   ## Section 2
   ## Section 3
   ## Section 4
@@ -248,7 +248,7 @@ button.navbar-toggler:focus { outline: none !important; }
 }
 
 .site-hero {
-  background: url('../img/stock-img-3.jpeg')no-repeat center center;
+  background: url('../img/stock-img-5.jpeg')no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   overflow: hidden;
@@ -304,8 +304,7 @@ margin: auto;
   width: 100%;
   height: auto;
   padding: 20px;
-  margin-bottom: 60px !important;
-  background-color: #f9f9f9;
+  background-color: #fff;
 
   .container {
     margin-bottom: 20px;
@@ -320,6 +319,7 @@ margin: auto;
   margin-bottom: 10px;
   overflow: hidden;
 }
+
 
 .content .content-overlay {
   background: rgba(0,0,0,0.3);
@@ -426,8 +426,108 @@ padding-left: 3px !important;
 /*--------------------------------------------------------------
 # Section 4
 --------------------------------------------------------------*/
+#followsocial{
+  width: 100%;
+  padding: 20px;
+  background: #1a1a1a; 
+  text-align: center;
+  color: #fff;
 
+  h3 {
+    font-size: 3rem;
+  }
 
+  h4 {
+    font-size: 1.5
+  }
+
+  .col, .col-lg-4, .col-md-12 {
+    padding-right: 3px !important;
+    padding-left: 3px !important;
+    }
+   
+    .content img {
+      margin-bottom: 10px;
+    }
+    img {
+      max-width: 100%;
+
+    }
+
+    a {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .igstyle {
+      background: #1b1818;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 12px;
+      padding: 13px 25px;
+      display: inline-block;
+      border: none;
+      cursor: pointer;
+    }
+
+    .igstyle.big {
+      background: 14px;
+      font-weight: 600;
+      padding: 11px 20px;
+      min-height: 40px;
+    }
+
+    .igstyle:hover {
+      background: #fff;
+      color: #1b1818;
+    }
+
+    .igstyle i {
+      margin-right: 20px;
+    }
+
+    .igstyle.big i {
+      font-size: 1.5em;
+      vertical-align: middle;
+    }
+
+    .igstyle span {
+      vertical-align: middle;
+    }
+
+    .igstyle.white {
+      color: #b70000;
+      background: #fff;
+  }
+  
+  .dark-bg .igstyle.white {
+      color: #000;
+  }
+  
+  
+  .igstyle.white-dark {
+      color: #000;
+      background: #fff;
+  }
+  
+  .igstyle.white:hover,
+  .igstyle.white-dark:hover {
+      background: #b70000;
+      color: #fff;
+      transition-duration: .3s;
+  }
+}
+
+/*--------------------------------------------------------------
+# Section 5
+--------------------------------------------------------------*/
+ #price {
+   background: #fff;
+   min-height: 500px;
+   margin: 0 auto;
+ }
 /*--------------------------------------------------------------
 # Footer Section
 --------------------------------------------------------------*/
@@ -534,6 +634,10 @@ button.navbar-toggler:focus { outline: none !important; }
   #photometa {
     min-height: 300px !important;
     padding: 2.5rem !important;
+  }
+
+  #followsocial h3{ 
+    font-size: 2em
   }
 
 }
