@@ -78,6 +78,7 @@ overflow-x:hidden;
 
 body {
   margin: 0;
+  padding: 0 !important;
   margin-bottom: 60px;
   font-size: 1rem;
   font-weight: 400;
@@ -97,6 +98,35 @@ body > .container {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+header .navbar {
+  background: #1b1818;
+}
+header .navbar a {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff !important;
+}
+
+header .navbar-light .navbar-toggler {
+  color: #fff !important;
+  border: 0px !important;
+  font-size: 1.5em !important;
+}
+
+
+header i {
+  color: #fff;
+}
+header .navbar a:hover {
+  color: #b70000 !important;
+  font-size: 1rem; 
+transition-timing-function: ease-in-out !important;
+  transition-duration: .4s !important;
+  transition-property: left, visibility;
+transition: .4s ease-in-out;
+}
+
 .navbar-dark .navbar-toggler {
   color: #fff !important;
 }
@@ -129,7 +159,7 @@ button.navbar-toggler:focus { outline: none !important; }
 
 
 .navbar-toggle:hover {
-	color: #000 !important;
+	color: #fff !important;
 }
 
 .navbar-toggle .icon-bar {
@@ -140,7 +170,7 @@ button.navbar-toggler:focus { outline: none !important; }
 .navbar-toggler {
   padding-top: .75rem !important;
   padding-bottom: .75rem !important;
-  background: #fff !important; 
+  color: #fff;
 }
 /* Icon 1 */
 
@@ -158,6 +188,7 @@ button.navbar-toggler:focus { outline: none !important; }
   -o-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
   cursor: pointer;
+  color: #fff;
   }
   
   .animated-icon1 span, .animated-icon3 span, .animated-icon4 span {
@@ -698,6 +729,23 @@ ul.list-group.list-group-flush li.list-group-item:after {
 
 }
 
+nav ul {
+margin-top: 10px;
+padding-bottom: 10px;
+}
+nav a {
+text-align: center;
+}
+
+a.nav-link {
+font-size: 1.5rem !important;
+}
+
+a.nav-link:hover {
+font-size: 1.5rem !important;
+}
+
+
 .navi .navbar-brand {
   color: #1b1818;
 }
@@ -707,7 +755,7 @@ ul.list-group.list-group-flush li.list-group-item:after {
 .navbar-toggler {
   border: none !important;
   outline: none !important;
-  background: #fff !important;
+  
 }
 button.navbar-toggler:focus { outline: none !important; }
 }

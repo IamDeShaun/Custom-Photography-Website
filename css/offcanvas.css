@@ -23,6 +23,7 @@ body {
   -o-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
   cursor: pointer;
+  color: #fff;
   }
   
   .animated-icon1 span, .animated-icon3 span, .animated-icon4 span {
@@ -44,7 +45,7 @@ body {
   }
   
   .animated-icon1 span {
-  background: #1b1818;
+  background: #fff;
   }
   
   .animated-icon3 span {
