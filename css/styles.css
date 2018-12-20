@@ -54,6 +54,7 @@ body {
   line-height: 1.5;
   color: #1b1818;
   background: #eee;
+  background-color: #f2f2f2;
   text-align: left;
   overflow-x: hidden; }
 
@@ -245,6 +246,19 @@ button.navbar-toggler:focus {
   background-color: #fff; }
   #homegallery .container {
     margin-bottom: 20px; }
+  #homegallery h4 {
+    font-size: 3rem !important;
+    text-align: center; }
+  #homegallery .redline {
+    text-align: center;
+    margin: 0px auto; }
+  #homegallery .redline::after {
+    content: "";
+    background: #b70000;
+    width: 30px;
+    height: 4px;
+    display: inline-block;
+    margin-bottom: 20px; }
 
 .content {
   position: relative;
@@ -280,6 +294,7 @@ button.navbar-toggler:focus {
   text-align: center;
   padding-left: 1em;
   padding-right: 1em;
+  font-size: 1.5rem;
   width: 100%;
   top: 50%;
   left: 50%;
@@ -320,8 +335,6 @@ button.navbar-toggler:focus {
 #homegallery h4 {
   padding-top: 20px;
   font-size: 1.5rem;
-  margin-bottom: 20px;
-  font-weight: 700;
   text-align: center; }
 
 #homegallery .container .row h5 {
@@ -408,8 +421,82 @@ button.navbar-toggler:focus {
 --------------------------------------------------------------*/
 #price {
   background: #fff;
-  min-height: 500px;
-  margin: 0 auto; }
+  height: auto;
+  margin: auto;
+  margin-bottom: 60px;
+  padding: 10px; }
+  #price .redline {
+    text-align: center;
+    margin: 0 auto; }
+  #price .redline::after {
+    content: "";
+    background: #b70000;
+    width: 30px;
+    height: 4px;
+    display: inline-block;
+    margin-bottom: 20px; }
+  #price h3 {
+    font-size: 3rem;
+    text-align: center; }
+  #price h4 {
+    font-size: 1.5;
+    padding-top: 20px;
+    text-align: center; }
+  #price .col, #price .col-lg-3, #price .col-md-6 .col-sm-12 {
+    padding-right: 3px !important;
+    padding-left: 3px !important; }
+
+.pricing-item .card-body .uppercase {
+  vertical-align: middle;
+  text-align: center;
+  font-size: 18px; }
+
+.card {
+  border-top: 3px solid #b70000 !important;
+  border-radius: 0px !important;
+  margin-bottom: 20px; }
+
+.pricing-item .card-body .uppercase {
+  margin: 20px 0 0;
+  font-weight: 600;
+  color: #b70000; }
+
+.pricing-item .card-body h6 {
+  margin: 0;
+  font-weight: 600;
+  color: #b70000;
+  text-align: center; }
+
+.pricing-item .card-body .price {
+  color: #b70000;
+  font-size: 3.750em;
+  font-weight: 600;
+  text-align: center; }
+
+.pricing-item .card-body .price span {
+  font-size: 0.600em; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: .75rem 1.25rem;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 0px !important;
+  text-align: center; }
+
+ul.list-group.list-group-flush li.list-group-item:after {
+  content: '';
+  display: block;
+  width: 95px;
+  height: 1px;
+  background: #d5d5d5;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 10px; }
 
 /*--------------------------------------------------------------
 # Footer Section
