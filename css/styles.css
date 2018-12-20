@@ -480,7 +480,10 @@ button.navbar-toggler:focus {
 .card {
   border-top: 3px solid #b70000 !important;
   border-radius: 0px !important;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  border-left: 2px solid rgba(0, 0, 0, 0.124) !important;
+  border-right: 2px solid rgba(0, 0, 0, 0.124) !important;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.124) !important; }
 
 .pricing-item .card-body .uppercase {
   margin: 20px 0 0;
@@ -630,6 +633,7 @@ footer a:hover {
     padding: 2.5rem !important; }
 
   #followsocial h3 {
-    font-size: 2em; } }
+    font-size: 3em;
+    margin-bottom: 20px; } }
 
 /*# sourceMappingURL=styles.css.map */

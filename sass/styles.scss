@@ -624,6 +624,9 @@ padding-left: 3px !important;
   border-top: 3px solid #b70000 !important;
   border-radius: 0px !important;
   margin-bottom: 20px;
+  border-left: 2px solid rgba(0,0,0,.124) !important;
+  border-right: 2px solid rgba(0,0,0,.124) !important;
+  border-bottom: 2px solid rgba(0,0,0,.124) !important;
 }
 
 .pricing-item .card-body .uppercase {
@@ -803,7 +806,8 @@ button.navbar-toggler:focus { outline: none !important; }
   }
 
   #followsocial h3{ 
-    font-size: 2em
+    font-size: 3em;
+    margin-bottom: 20px;
   }
 
 }
