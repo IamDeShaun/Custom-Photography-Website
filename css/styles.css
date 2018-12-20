@@ -191,7 +191,6 @@ button.navbar-toggler:focus {
 .site-hero {
   background: url("../img/stock-img-5.jpeg") no-repeat center center;
   background-size: cover;
-  background-attachment: fixed;
   overflow: hidden;
   padding-top: 150px;
   text-align: center; }
