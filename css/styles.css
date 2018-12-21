@@ -216,7 +216,7 @@ button.navbar-toggler:focus {
     text-align: center; }
 
 .site-hero {
-  background: url("../img/stock-img-5.jpeg") no-repeat center center;
+  background: url("../img/main-hero.jpg") no-repeat center center;
   background-size: cover;
   overflow: hidden;
   padding-top: 150px;

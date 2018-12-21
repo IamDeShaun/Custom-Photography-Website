@@ -1,6 +1,7 @@
 *.log
 /node_modules/*
-.sass-cashe/
+.sass-cache
+.sass-cache/*
 *.css.map
 *.sass.map
 *.scss.map
