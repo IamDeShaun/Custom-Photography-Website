@@ -527,6 +527,28 @@ ul.list-group.list-group-flush li.list-group-item:after {
   position: relative;
   margin-top: 10px; }
 
+/*-------------------------------------------------------------
+ Photography Gallery
+---------------------------------------------------------------*/
+#gallery-portfolio {
+  text-align: center;
+  margin-bottom: 80px;
+  padding: 20px; }
+  #gallery-portfolio img {
+    width: 100%;
+    margin-bottom: 5px; }
+  #gallery-portfolio h4 {
+    padding-top: 20px;
+    font-size: 3rem;
+    text-align: center; }
+  #gallery-portfolio .redline::after {
+    content: "";
+    background: #b70000;
+    width: 30px;
+    height: 4px;
+    display: inline-block;
+    margin-bottom: 20px; }
+
 /*--------------------------------------------------------------
 # Footer Section
 --------------------------------------------------------------*/
