@@ -710,10 +710,6 @@ ul.list-group.list-group-flush li.list-group-item:after {
   text-align: left;
   font-weight: 600;
 }
-#blog .col-md-8, #blog .col-md-4 {
-  padding-left: 0px !important;
-  padding-right: 0px !important;
-}
 
 /*--------------------------------------------------------------
 # Footer Section
@@ -869,6 +865,11 @@ footer a:hover {
     font-weight: 600;
     text-align: left;
     font-size: 1.3rem !important;
+  }
+
+  .blog .col-md-8, .col-md-4 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
   }
 }
 

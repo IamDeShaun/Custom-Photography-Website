@@ -783,11 +783,6 @@ ul.list-group.list-group-flush li.list-group-item:after {
   font-weight: 600;
 }
 
-.col-md-8, .col-md-4 {
-  padding-left: 0px !important;
-  padding-right: 0px !important;
-}
-
 }
 
 
@@ -944,6 +939,11 @@ button.navbar-toggler:focus { outline: none !important; }
     font-weight: 600;
    text-align: left;
    font-size: 1.3rem !important;
+  }
+
+  .blog .col-md-8, .col-md-4 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
   }
 
 }
