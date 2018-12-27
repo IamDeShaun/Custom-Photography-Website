@@ -772,6 +772,134 @@ ul.list-group.list-group-flush li.list-group-item:after {
   min-height: 600px;
 }
 
+/*-------------------------------------------------------------
+# Contact Section 
+-------------------------------------------------------------*/
+.contact {
+  height: auto;
+}
+.contact #contactmeta {
+  padding: 2rem;
+  margin-bottom: 40px;
+  background: #1a1a1a;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  font-weight: 600;
+}
+.contact #contactmeta h3 {
+  font-size: 3rem;
+  font-size: 800;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+.contact #contactmeta h4 {
+  margin-bottom: 10px;
+}
+.contact #contactform {
+  background: #fff;
+  padding: 4em;
+  margin-bottom: 40px;
+  min-height: 500px;
+  position: relative;
+  font-size: 12px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #1a1a1a !important;
+}
+.contact header {
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.contact header h4 {
+  padding-top: 20px;
+  font-size: 600 !important;
+  font-size: 2rem;
+}
+.contact header .redline::after {
+  content: "";
+  background: #b70000;
+  width: 30px;
+  height: 4px;
+  display: inline-block;
+  margin-bottom: 30px;
+  margin: auto;
+  text-align: center;
+}
+.contact #success-message {
+  opacity: 0;
+}
+.contact .col-xs-12.col-sm-12.col-md-12.col-lg-12 {
+  padding: 0 20% 0 20%;
+}
+.contact .margin-top-25 {
+  margin-top: 25px;
+}
+.contact .form-title {
+  padding: 25px;
+  font-size: 30px;
+  font-weight: 300;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.contact .form-group .form-control {
+  -webkit-box-shadow: none;
+  border-bottom: 1px;
+  border-style: none none solid none;
+  border-radius: 0;
+  border-color: #000;
+}
+.contact .form-group .form-control:focus {
+  box-shadow: none;
+  border-width: 0 0 2px 0;
+  border-color: #000;
+}
+.contact textarea {
+  resize: none;
+}
+.contact .btn-mod.btn-large {
+  height: auto;
+  padding: 13px 52px;
+  font-size: 15px;
+}
+.contact .btn-mod.btn-border {
+  color: #000000;
+  border: 1px solid #000000;
+  background: transparent;
+}
+.contact .btn-mod, .contact a.btn-mod {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 4px 13px;
+  color: #fff;
+  background: rgba(34, 34, 34, 0.9);
+  border: 1px solid transparent;
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: all 0.2s cubic-bezier(0, 0, 0.58, 1);
+  -moz-transition: all 0.2s cubic-bezier(0, 0, 0.58, 1);
+  -o-transition: all 0.2s cubic-bezier(0, 0, 0.58, 1);
+  -ms-transition: all 0.2s cubic-bezier(0, 0, 0.58, 1);
+  transition: all 0.2s cubic-bezier(0, 0, 0.58, 1);
+}
+.contact .btn-mod.btn-border:hover, .contact .btn-mod.btn-border:active, .contact .btn-mod.btn-border:focus, .contact .btn-mod.btn-border:active:focus {
+  color: #fff;
+  border-color: #000;
+  background: #000;
+  outline: none;
+}
+
 /*--------------------------------------------------------------
 # Footer Section
 --------------------------------------------------------------*/
