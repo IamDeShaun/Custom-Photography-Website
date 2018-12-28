@@ -334,7 +334,6 @@ button.navbar-toggler:focus {
   width: 100%;
   max-width: 400px;
   margin: auto;
-  margin-bottom: 10px;
   overflow: hidden;
 }
 
@@ -343,7 +342,6 @@ button.navbar-toggler:focus {
   position: absolute;
   height: 100%;
   width: 100%;
-  margin-bottom: 10px;
   left: 0;
   top: 0;
   bottom: 0;
