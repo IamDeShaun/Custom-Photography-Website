@@ -332,7 +332,6 @@ button.navbar-toggler:focus {
 .content {
   position: relative;
   width: 100%;
-  max-width: 400px;
   margin: auto;
   overflow: hidden;
 }
@@ -408,6 +407,7 @@ button.navbar-toggler:focus {
 
 #homegallery img {
   max-width: 100%;
+  margin-bottom: 10px;
 }
 
 #homegallery h4 {
@@ -417,7 +417,7 @@ button.navbar-toggler:focus {
 }
 
 #homegallery .container .row h5 {
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin-bottom: 30px;
   font-weight: 700;
   margin: auto;
@@ -426,6 +426,8 @@ button.navbar-toggler:focus {
 #homegallery .container .row a {
   color: #1b1818;
   margin: auto;
+  padding-top: 10px;
+  font-size: 1.5rem !important;
 }
 
 #homegallery .container .row a:hover {
