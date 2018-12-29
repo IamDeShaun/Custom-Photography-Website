@@ -334,6 +334,7 @@ button.navbar-toggler:focus {
   width: 100%;
   margin: auto;
   overflow: hidden;
+  margin-bottom: 10px;
 }
 
 .content .content-overlay {
@@ -407,7 +408,6 @@ button.navbar-toggler:focus {
 
 #homegallery img {
   max-width: 100%;
-  margin-bottom: 10px;
 }
 
 #homegallery h4 {
